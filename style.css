@@ -102,5 +102,30 @@ nav {
 }
 
 #locations {
-    
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#locations article {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#col {
+    background-color: black;
+    width: 300px;
+    margin: 20px;
+}
+
+#col p {
+    padding-bottom: 15px;
+}
+
+#copy {
+    float: left;
 }
